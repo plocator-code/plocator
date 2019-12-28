@@ -1,0 +1,29 @@
+name: producot_store_locator
+description: Product &amp; Store Locator Mobile Application
+version: 1.0.0+1
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_spinkit: ^4.1.0
+  cupertino_icons: ^0.1.2
+  flutter_screenutil: ^0.7.0
+  flutter_auth_buttons: ^0.6.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/icons-shop-location-1.png
+    - assets/images/icons-shop-location-2.png
+    - assets/images/social-girl.png
+    - assets/images/pay-online.png
+    - assets/images/mobile-login.png
+    - assets/images/online-transactions.png
+    - assets/two-factor.png
+  fonts:
+    - family: VarelaRound
+      fonts:
+        - asset: fonts/VarelaRound-Regular.ttf
