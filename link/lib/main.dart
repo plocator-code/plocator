@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:producot_store_locator/screens/splash_screen.dart';
-import 'package:producot_store_locator/ui/sociallogin.dart';
+import 'package:link/screens/onboarding_screen.dart';
+import 'package:link/screens/splash_screen.dart';
 
 void main() => runApp(MyApp());
 
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       title: 'Product Locator',
       theme: ThemeData(fontFamily: 'VarelaRound'),
       home: SplashScreen(),
-      routes: <String, WidgetBuilder>{'/Login': (BuildContext context) => new SocialLogin()},
+      routes: <String, WidgetBuilder>{'/Login': (BuildContext context) => new Onboarding()},
     );
   }
 }
